@@ -7,7 +7,8 @@ app.use(cors());
 app.use(express.json());
 
 //Rutas
-
+//localhost:3301/api/SignIn
+app.use('/api/auth', require('./routes/authRoutes'));
 
 
 const PORT = process.env.PORT || 3001;

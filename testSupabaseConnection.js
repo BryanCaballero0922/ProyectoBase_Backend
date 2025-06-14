@@ -9,6 +9,6 @@ const testConnection = async() =>{
     }else{
         console.log("Conexion exitosa")
     }
-}
+};
 
 testConnection();
